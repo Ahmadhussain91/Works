@@ -1,0 +1,101 @@
+body{
+	background-image: url(http://celebrationentertainment.com/wp-content/uploads/2015/09/superhero-background.jpg);
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+
+#draggable {
+	width: 70px;
+	height: auto;
+	background-color: red;
+	background-blend-mode: transparent;
+	border-radius: 40px;
+}
+
+#lul {
+	background color: #97B7B3;
+}
+
+#droppable {
+	width: 100px;
+	height: 120px;
+	background-color: blue;
+	color: white;
+	border-radius: 4px;
+}
+
+ #sortable { list-style-type: none; margin: 0; padding: 0; width: 60%; }
+  #sortable li { display: block;}
+  #sortable li span { position: absolute; margin-left: -1.3em; }
+  #sortable img {width: 40%; height: 50%;}
+
+ #accordion {background-color: skyblue; border-radius: 5px; display: block;}
+ #accordion h3 {background-color: #6CDEFC; color:#16328A; text-align: center;display: block;}
+
+.ui-resizable-se {
+    bottom: 17px;
+  }
+
+.parallax-window {
+    min-height: 400px;
+    background: transparent;
+}
+
+.food {
+	height: 80px;
+	width: 80px;
+	background-color: lavender;
+	margin:5px;
+	display: inline-block;
+}
+
+.food img {
+	height: 80px;
+	width: 80px;
+}
+
+.drink {
+	height: 80px;
+	width: 80px;
+	background-color: red;
+	margin:5px;
+	display: inline-block;
+}
+
+.drink img {
+	height: 80px;
+	width: 80px;
+}
+
+#btns {
+	padding-left: 20px;
+}
+
+#btns button {
+	padding:30px;
+	border-radius: 10px;
+	background: linear-gradient(to right, #1098E5 , #51B0E7);
+	border: 2px darkblue;
+	color: white;
+}
+
+ #par_{
+      min-height:400px;
+      position: center;
+      background:url('images/parlx.jpg') no-repeat ;background-size:cover;
+      background-attachment: fixed;
+      overflow:visible;
+} 
+
+.caption span.border {
+  background-color: #879;
+  color: #fff;
+  padding: 18px;
+  font-size: 25px;
+  letter-spacing: 10px;
+}
+
+.lightboximg img{
+	height: 180px;
+	width:180px;
+}

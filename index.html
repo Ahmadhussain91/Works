@@ -1,0 +1,253 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Jquery Exam-Abir</title>
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+	<link rel="stylesheet" href="owl.carousel.min.css">
+	<link rel="stylesheet" href="owl.theme.default.min.css">
+	<link href="Lightbox/lightbox.css" rel="stylesheet">
+	<link rel="stylesheet" type="text/css" href="stylesheet.css">
+</head>
+<body>
+<div class="container">
+	<div class="container-fluid" style="color: #774;background-color:#BDF0EA;text-align:center;padding:50px 80px;text-align: justify;">
+	  <h3 style="text-align:center;">Parallax</h3>
+	  <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+	</div>
+     <!--parallax-->
+    <div id="par_" class="autoheight"> 
+        <div class="container">
+            <div class="row">
+              <div class="caption">
+                <span class="border">Cityscape</span>
+              </div>
+            </div>
+        </div>
+    </div>
+   <!--parallax-->
+	<!--header-->
+	<div>
+		<nav>
+			<nav class="navbar navbar-default navbar-fixed-top">
+			  <div class="container-fluid">
+			    <!-- Brand and toggle get grouped for better mobile display -->
+			    <div class="navbar-header">
+			      <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+			        <span class="sr-only">Toggle navigation</span>
+			        <span class="icon-bar"></span>
+			        <span class="icon-bar"></span>
+			        <span class="icon-bar"></span>
+			      </button>
+			      <a class="navbar-brand" href="#"><img style="height: 30px;" src="https://upload.wikimedia.org/wikipedia/en/8/85/Coders_Trust_company_logo.png"></a>
+			    </div>
+
+			    <!-- Collect the nav links, forms, and other content for toggling -->
+			    <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+			      <ul class="nav navbar-nav">
+			        <li class="active"><a href="#">Home<span class="sr-only">(current)</span></a></li>
+			        <li><a href="#"></a></li>
+			        <li class="dropdown">
+			          <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Portfolio <span class="caret"></span></a>
+			          <ul class="dropdown-menu">
+			            <li><a href="#">Sky</a></li>
+			            <li><a href="#">Forest</a></li>
+			            <li><a href="#">Sea</a></li>
+			            <li role="separator" class="divider"></li>
+			            <li><a href="#">Custom</a></li>
+			            <li role="separator" class="divider"></li>
+			            <li><a href="#">More</a></li>
+			          </ul>
+			        </li>
+			      </ul>
+			      <form class="navbar-form navbar-left">
+			        <div class="form-group">
+			          <input type="text" class="form-control" placeholder="Search">
+			        </div>
+			        <button type="submit" class="btn btn-default">Submit</button>
+			      </form>
+			      <ul class="nav navbar-nav navbar-right">
+			         <li class="dropdown">
+			          <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Dropdown <span class="caret"></span></a>
+			          <ul class="dropdown-menu">
+			            <li><a href="#">Sign Up</a></li>
+			            <li><a href="#">Contact</a></li>
+			            <li role="separator" class="divider"></li>
+			            <li><a href="#">More</a></li>
+			          </ul>
+			        </li>
+			      </ul>
+			    </div><!-- /.navbar-collapse -->
+			  </div><!-- /.container-fluid -->
+			</nav>
+		</nav>
+		<div class="ui-widget">
+		  <label for="tags">Tags: </label>
+		  <input id="tags">
+		</div>
+	</div>
+	<!--carousel-->
+	<div>
+		<div>
+			<div id="slider"></div>
+		</div>
+	</div>
+	<!--body-->
+	<!--===================== carousel begin ========================-->
+	<div id="carousel-example-generic" class="carousel slide" data-ride="carousel">
+  <!-- Indicators -->
+	  <ol class="carousel-indicators">
+	    <li data-target="#carousel-example-generic" data-slide-to="0" class="active"></li>
+	    <li data-target="#carousel-example-generic" data-slide-to="1"></li>
+	    <li data-target="#carousel-example-generic" data-slide-to="2"></li>
+	    <li data-target="#carousel-example-generic" data-slide-to="3"></li>
+	  </ol>
+
+  <!-- Wrapper for slides -->
+	  <div class="carousel-inner" role="listbox">
+	    <div class="item active">
+	      <img src="images/1.jpg" alt="1.jpg">
+	      <div class="carousel-caption">
+	        Rampal Site.
+	      </div>
+	    </div>
+	    <div class="item">
+	      <img src="images/2.jpg" alt="2.jpg">
+	      <div class="carousel-caption">
+	        Rampal Site
+	      </div>
+	    </div>
+	    <div class="item">
+	      <img src="images/3.jpg" alt="3jpg">
+	      <div class="carousel-caption">
+	       Rampal Site
+	      </div>
+	    </div>
+	    <div class="item">
+	      <img src="images/4.jpg" alt="4jpg">
+	      <div class="carousel-caption">
+	       Rampal Site
+	      </div>
+	    </div>
+	  </div>
+
+  		<!-- Controls -->
+	  <a class="left carousel-control" href="#carousel-example-generic" role="button" data-slide="prev">
+	    <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
+	    <span class="sr-only">Left</span>
+	  </a>
+	  <a class="right carousel-control" href="#carousel-example-generic" role="button" data-slide="next">
+	    <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
+	    <span class="sr-only">Right</span>
+	  </a>
+	</div>
+<!--===================== carousel end ========================-->
+	<div>
+		<div class="col-md-offset-3 col-md-6 col-md-offset-3">
+			<div id="draggable" class="ui-widget-content">
+			  <button type="button" class="btn btn-danger">Drag</button>
+			</div>
+			 
+			<div id="droppable" class="ui-widget-header">
+			  <p>Drop here</p>
+			</div>
+		</div>
+		<div class="col-md-offset-4 col-md-4" id="lul"><p id="p1">Hello Linkon vai!</p>
+		<button style="border-radius: 4px" id="clk">Click this</button>
+		</div>
+		<div class="col-md-offset-3 col-md-6 col-md-offset-3">
+			<ul id="sortable">
+			  <li class="ui-state-default"><span class="ui-icon ui-icon-arrowthick-2-n-s"></span><img src="http://hookedoneverything.com/wp-content/uploads/2015/04/panama-featured-iamge1-810x539.jpg"></li>
+			  <li class="ui-state-default"><span class="ui-icon ui-icon-arrowthick-2-n-s"></span><img src="http://wallpaper-gallery.net/blog/16-photographs-captured-over-and-under-water-simultaneously/16-photographs-captured-over-and-under-water-simultaneously-1.jpg"></li>
+			  <li class="ui-state-default"><span class="ui-icon ui-icon-arrowthick-2-n-s"></span><img src="http://wallpaper-gallery.net/blog/16-photographs-captured-over-and-under-water-simultaneously/16-photographs-captured-over-and-under-water-simultaneously-4.jpg"></li>
+			</ul>
+		</div>
+		<div class="col-md-offset-3 col-md-6 col-md-offset-3">
+			<textarea id="resizable" rows="5" cols="20"></textarea>
+		</div>
+		<div></div>
+		<div></div>
+	</div>
+	<!--portfolio-->
+	<div>
+		<div>
+			<div class="col-md-offset-2 col-md-8 col-md-offset-2" id="accordion">
+			  <h3>Section 1</h3>
+			  <div>
+			    <p>
+			  Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+			    </p>
+			  </div>
+			  <h3>Section 2</h3>
+			  <div>
+			    <p>
+			    Sed non urna. Donec et ante. Phasellus eu ligula. Vestibulum sit amet
+			    purus. Vivamus hendrerit, dolor at aliquet laoreet, mauris turpis porttitor
+			    velit, faucibus interdum tellus libero ac justo. Vivamus non quam. In
+			    suscipit faucibus urna.
+			    </p>
+			  </div>
+			  <h3>Section 3</h3>
+			  <div>
+			    <p>
+			    Nam enim risus, molestie et, porta ac, aliquam ac, risus. Quisque lobortis.
+			    Phasellus pellentesque purus in massa. Aenean in pede. Phasellus ac libero
+			    ac tellus pellentesque semper. Sed ac felis. Sed commodo, magna quis
+			    lacinia ornare, quam ante aliquam nisi, eu iaculis leo purus venenatis dui.
+			    </p>
+			   </div>
+			  <h3>Section 4</h3>
+			  <div>
+			    <p>
+			    Cras dictum. Pellentesque habitant morbi tristique senectus et netus
+			    et malesuada fames ac turpis egestas. Vestibulum ante ipsum primis in
+			    faucibus orci luctus et ultrices posuere cubilia Curae; Aenean lacinia
+			    mauris vel est.
+			    </p>
+			    <p>
+			    Suspendisse eu nisl. Nullam ut libero. Integer dignissim consequat lectus.
+			    Class aptent taciti sociosqu ad litora torquent per conubia nostra, per
+			    inceptos himenaeos.
+			    </p>
+			  </div>
+			</div>
+		</div>
+	</div>
+	<!--About-->
+	<div>
+		<div class="col-md-offset-2 col-md-8 col-md-offset-2">
+			<div class="food"><img src="http://s3.amazonaws.com/etntmedia/media/images/ext/842849976/greasy-fast-food.jpg"></div>
+			<div class="food"><img src="http://s3.amazonaws.com/etntmedia/media/images/ext/842849976/greasy-fast-food.jpg"></div>
+			<div class="food"><img src="http://s3.amazonaws.com/etntmedia/media/images/ext/842849976/greasy-fast-food.jpg"></div>
+			<div class="drink"><img src="http://assets.rebelcircus.com/blog/wp-content/uploads/2015/01/Como-preparar-o-drink-Cosmopolitan-2.jpg"></div>
+			<div class="drink"><img src="http://assets.rebelcircus.com/blog/wp-content/uploads/2015/01/Como-preparar-o-drink-Cosmopolitan-2.jpg"></div>
+			<div class="drink"><img src="http://assets.rebelcircus.com/blog/wp-content/uploads/2015/01/Como-preparar-o-drink-Cosmopolitan-2.jpg"></div>
+		</div>
+		<div class="col-md-offset-4 col-md-4 col-md-offset-4" id="btns">
+			<button id="all">All</button>
+			<button id="food">Food</button>
+			<button id="drink">Drink</button>
+		</div>
+		<div>
+		</div>
+		<div class="col-md-offset-4 col-md-8 col-md-offset-2">
+			<section class="lightboximg">
+				<a href="Lightbox/1.jpg" data-lightbox="1"><img src="Lightbox/1.jpg"></a>
+				<a href="Lightbox/2.jpg" data-lightbox="2"><img src="Lightbox/2.jpg"></a>
+				<a href="Lightbox/3.jpg" data-lightbox="3"><img src="Lightbox/3.jpg"></a>
+			</section>
+		</div>
+		<div></div>
+	</div>
+</div>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+<script src="https://code.jquery.com/jquery-1.12.4.js"></script>
+<script src="https://code.jquery.com/ui/1.12.1/jquery-ui.js"></script>
+<!--Parallax-->
+<script type="text/javascript" src="jquery.parallax-1.1.3.js"></script>
+<!--Parallax-->
+<script src="Lightbox/lightbox.js"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+<script type="text/javascript" src="app.js"></script>
+</body>
+</html>
